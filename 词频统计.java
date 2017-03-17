@@ -15,7 +15,7 @@ public class TestMap {
 		Map<String, Integer> map1=new HashMap<String, Integer>();
 		String b;
 		while((b=br.readLine())!=null){
-			String str[]=b.split(" ");//splitÓÃ¿Õ¸ñ·Ö¸îÊı¾İ
+			String str[]=b.split(" ");//splitç”¨ç©ºæ ¼åˆ†å‰²æ•°æ®
 			for(String s:str){
 				if(!map1.containsKey(s))
 					map1.put(s,1);
